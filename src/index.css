@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+.baslik {
+    margin-left: 3vw;
+    color: white;
+}
+.card {
+    background-color: white;
+    width: 20vw;
+    height: 50vh;
+}
+.card .img img {
+    width: 20vw;
+    height: 20vh;
+    object-fit: cover;
+}
+.text {
+    width: 20vw;
+    height: 30vh;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+}
